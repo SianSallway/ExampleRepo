@@ -6,9 +6,25 @@
 
 using namespace std;
 
+void Function1()
+{
+	cout << "Function 1\n";
+	cout << "Line 2\n";
+}
+
+
 int main()
 {
     cout << "Hello World!\n"; 
+	cout << "Welcome to the Version Control example\n";
+
+	cout << endl;
+	cout << "---------\n";
+	cout << "Main Menu\n";
+	cout << "---------\n";
+	//TODO: Add Main Menu code here
+
+	Function1();
 
 	system("pause");
 	return 0;
